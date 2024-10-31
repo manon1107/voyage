@@ -1,0 +1,8 @@
+.btn-blue {
+	background-color: rgb(180, 220, 180);
+	padding: 6px;
+	border-radius: 4px;
+	color: white;
+	font-weight:bold;
+	font-family: Montserrat, sans-serif;
+}

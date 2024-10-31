@@ -1,0 +1,25 @@
+.banner {
+  height: 400px
+  background-image: url("../../images/voyage.png");
+  color: black;
+  padding: 150px;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner h1{
+  font-size: 50px;
+  color: black;
+}
+.banner p{
+  font-size: 20px;
+  color: black;
+}
+
+.banner h2{
+  color: red;
+  font-size: 30px;
+  font-weight: lighter;
+  opacity: 0.8;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body {
+    font-family: 'Lora', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;  
+    color: #333;
+    margin: 0.5em 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #007bff;  
+}
+
+.btn-blue {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn-blue:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+
+
+.card:hover {
+	background-color: rgb(240,240, 240);
+    transform: scale(1.05);
+}
+
+
+.banner {
+    background-image: url('../images/voyage.png');  
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.banner h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.banner h2 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
